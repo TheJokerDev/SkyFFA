@@ -62,7 +62,7 @@ items:
         - ''
         - '&7Estado: &cEn juego'
   next:
-    material: SKULL_ITEM
+    material: PLAYER_HEAD
     data: 3
     amount: 1
     slot: 18
@@ -71,7 +71,7 @@ items:
       name: '&fPágina siguiente &b->'
       lore:
   previous:
-    material: SKULL_ITEM
+    material: PLAYER_HEAD
     data: 3
     amount: 1
     slot: 26
@@ -80,7 +80,7 @@ items:
       name: '&b<- &fPágina anterior>'
       lore:
   noArenas:
-    material: STAINED_GLASS_PANE
+    material: RED_STAINED_GLASS_PANE
     data: 14
     amount: 1
     slot: 22
