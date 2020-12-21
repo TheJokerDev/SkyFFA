@@ -1,0 +1,58 @@
+lobby:
+  enabled: true
+  disabledWorlds:
+    - test1
+    - test2
+  title: '&e&lSkyFFA'
+  lines:
+    - '%empty%'
+    - '&fPuntos:'
+    - '&e0.0'
+    - '%empty%'
+    - '&6mc.onlymc.us'
+
+game:
+  waiting:
+    title: '&e&lSkyFFA'
+    lines:
+      - '%empty%'
+      - '&fMapa:'
+      - '&b%a-name%'
+      - '%empty%'
+      - '&fJugadores:'
+      - '&b%a-ingame-p%/%a-max-p%'
+      - '%empty%'
+      - '&6mc.onlymc.us'
+  starting:
+    title: '&e&lSkyFFA'
+    lines:
+      - '%empty%'
+      - '&fMapa:'
+      - '&b%a-name%'
+      - '%empty%'
+      - '&fJugadores:'
+      - '&b%a-ingame-p%/%a-max-p%'
+      - '%empty%'
+      - '&6mc.onlymc.us'
+  ingame:
+    title: '&e&lSkyFFA'
+    lines:
+      - '%empty%'
+      - '&fMapa:'
+      - '&b%a-name%'
+      - '%empty%'
+      - '&fJugadores:'
+      - '&b%a-ingame-p%/%a-max-p%'
+      - '%empty%'
+      - '&6mc.onlymc.us'
+  ending:
+    title: '&e&lSkyFFA'
+    lines:
+      - '%empty%'
+      - '&fMapa:'
+      - '&b%a-name%'
+      - '%empty%'
+      - '&fJugadores:'
+      - '&b%a-ingame-p%/%a-max-p%'
+      - '%empty%'
+      - '&6mc.onlymc.us'

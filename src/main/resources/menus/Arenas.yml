@@ -1,0 +1,123 @@
+title: '&8Selector de mapas'
+
+items:
+  WAITING:
+    material: FIREWORK_STAR
+    data: 0
+    amount: 1
+    firework: '0-255-0'
+    meta:
+      name: '&a%arena%'
+      lore:
+        - '&7Click para entrar al'
+        - '&7mapa &a%arena%'
+        - ''
+        - '&7Jugadores:'
+        - '&7%p-alive%/%p-max%'
+        - ''
+        - '&7Estado: &aEsperando'
+  STARTING:
+    material: FIREWORK_STAR
+    data: 0
+    amount: 1
+    firework: '255-255-0'
+    meta:
+      name: '&a%arena%'
+      lore:
+        - '&7Click para entrar al'
+        - '&7mapa &a%arena%'
+        - ''
+        - '&7Jugadores:'
+        - '&7%p-alive%/%p-max%'
+        - ''
+        - '&7Estado: &6Iniciando'
+  FULL:
+    material: FIREWORK_STAR
+    data: 0
+    amount: 1
+    firework: '128-0-128'
+    meta:
+      name: '&a%arena%'
+      lore:
+        - '&7Click para entrar al'
+        - '&7mapa &a%arena%'
+        - ''
+        - '&7Jugadores:'
+        - '&7%p-alive%/%p-max%'
+        - ''
+        - '&7Estado: &5Lleno'
+  INGAME:
+    material: FIREWORK_STAR
+    data: 0
+    amount: 1
+    firework: '255-0-0'
+    meta:
+      name: '&a%arena%'
+      lore:
+        - '&7Click para entrar al'
+        - '&7mapa &a%arena%'
+        - ''
+        - '&7Jugadores:'
+        - '&7%p-alive%/%p-max%'
+        - ''
+        - '&7Estado: &cEn juego'
+  next:
+    material: SKULL_ITEM
+    data: 3
+    amount: 1
+    slot: 18
+    skull: 'name-MHF_ArrowLeft'
+    meta:
+      name: '&fPágina siguiente &b->'
+      lore:
+  previous:
+    material: SKULL_ITEM
+    data: 3
+    amount: 1
+    slot: 26
+    skull: 'name-MHF_ArrowRight'
+    meta:
+      name: '&b<- &fPágina anterior>'
+      lore:
+  noArenas:
+    material: STAINED_GLASS_PANE
+    data: 14
+    amount: 1
+    slot: 22
+    meta:
+      name: '&cNo hay arenas disponibles'
+      lore:
+
+extraItems:
+  close:
+    material: BARRIER
+    data: 0
+    amount: 1
+    slot: 49
+    meta:
+      name: '&cCerrar'
+      lore:
+    actions:
+      - '[close]'
+  head:
+    material: PLAYER_HEAD
+    data: 3
+    amount: 1
+    slot: 48
+    skull: 'name-%player_name%'
+    meta:
+      name: '&b%player_name%'
+      lore:
+    actions:
+      - '[close]'
+  randomjoin:
+    material: FIREWORK_ROCKET
+    data: 0
+    amount: 1
+    slot: 50
+    meta:
+      name: '&aPartida aleatoria'
+      lore:
+    actions:
+      - '[close]'
+      - '[player]/sKyffa join'

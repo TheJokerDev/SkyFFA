@@ -1,0 +1,36 @@
+# SIGNS CONFIGURATION
+
+
+# Activar/desactivar opción de rotación (desactivada por defecto)
+# Si la rotación está habilitada, la señal seleccionará una arena aleatoria disponible, eso significa que su servidor puede tener 30 arenas y solo 10 señales
+# y todas las arenas se pueden jugar sin tener una señal por arena
+rotation: true
+
+# Retraso en los tics (20 ticks = 1 segundo) cuando el letrero buscará otro juego después de estar en el juego (solo si la rotación está habilitada)
+rotationDelay: 60
+
+# Habilita o deshabilita el cambio de bloque según el estado de la arena
+change_block: true
+
+format:
+  game:
+    - '&lSkyFFA'
+    - '&nMapa: %map%'
+    - '%state%'
+    - '&8%players%/%maxplayers%'
+  searching:
+    - '&l----------'
+    - BUSCANDO
+    - ARENAS
+    - '&l----------'
+
+# El bloque que se colocará en la pared dependiendo del estado de la arena (change_block debe estar habilitado)
+# Formato de bloque: NOMBRE DEL ARTÍCULO: DATOS (Si DATOS es 0, no es necesario que lo escriba)
+state:
+  waiting: LIME_STAINED_GLASS
+  starting: ORANGE_STAINED_GLASS
+  full: PURPLE_STAINED_GLASS
+  ingame: RED_STAINED_GLASS
+  searching: WHITE_STAINED_GLASS
+
+signs: []

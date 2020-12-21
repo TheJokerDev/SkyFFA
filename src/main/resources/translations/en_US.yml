@@ -1,0 +1,60 @@
+general:
+  noPermission: '&cYou don''t have permissions!'
+  dialogHowToClose: '&aLeft click &7to close'
+  dialogClosed: '&7You''ve closed this dialogue'
+
+game:
+  full: '&cThe games is full'
+  ingame: '&cThe arena already is in game'
+  loading: '&cThe game is loading'
+  spawnUsed: '&cThe spawn point is already used'
+  broadcastWinner: '&e%s &awon the game!'
+  time:
+    limit: '&cThe game ended because the time limit is exceeded!'
+    left:
+      minutes: '&cThe game ends in %s minute(s)!'
+      seconds: '&cThe game ends in %s second(s)!'
+  player:
+    join: '&7[&a+&7] &8%s &7joined your game (%s/%s).'
+    quit: '&7[&c-&7] &8%s &7left your game (%s/%s).'
+  start:
+    nowfull: '&6Server is now &lFULL&6! Game starting in &e%s seconds&6!'
+    countdown:
+      msg: '&9SkyFFA is starting in &e%s seconds&9.'
+      alert:
+        title: '&a%s'
+        subtitle: '&e⚠ &c&lTeaming in SkyFFA is bannable &e⚠'
+      one: '&9SkyFFA is starting in &e%s second&9.'
+      minutes: '&9SkyFFA is starting in &e%s minute(s)&9.'
+      minutes-seconds: '&9SkyFFA is starting in &e%s minute(s) %s seconds&9.'
+      norequiredplayers: '&4Games has stopped because there are not enough players'
+      done: '&9The game is beginning...'
+      released: '&cYou will be released in %s seconds'
+    go:
+      msg: '&9Let the games begin!'
+      alert: '&aGO!\n'
+      alert-chat: '&4Teaming is not allowed in Solo SkyFFA!'
+  forcestart: '&aThe game has been forced to start'
+  arrowShoot:
+    - '&e%s now have &c%s.'
+
+variable:
+  time: '{DAYS}{HOURS}{MINUTES}{SECONDS}'
+  time-played:
+    second: '%s second'
+    seconds: '%s seconds'
+    minute: '%s minute,'
+    minutes: '%s minutes,'
+    hour: '%s hour,'
+    hours: '%s hours,'
+    day: '%s day,'
+    days: '%s days,'
+
+
+motd:
+  waiting: '&2Waiting'
+  starting: '&6Starting'
+  ingame: '&4In-Game'
+  ending: '&4Ending'
+  loading: '&cLoading'
+  full: '&5Full'

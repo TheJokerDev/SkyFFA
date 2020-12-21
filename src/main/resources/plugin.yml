@@ -1,0 +1,22 @@
+name: SkyFFA
+version: ${project.version}
+main: me.thejokerdev.skyffa.Main
+softdepend:
+  - FastAsyncWorldEdit
+  - WorldEdit
+api-version: 1.16
+authors: [ TheJokerDev ]
+description: SkyFFA - Test #2 for OnlyMC Developer Application.
+website: play.onlymc.us
+
+commands:
+  skyffa:
+    description: Main command for SkyFFA plugin.
+    usage: /<command>
+  leave:
+    description: Leave command.
+    aliases: [salir, dejar]
+
+permissions:
+  skyffa.admin:
+    description: Allow all permissions to admins.

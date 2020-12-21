@@ -1,0 +1,60 @@
+general:
+  noPermission: '&c¡No tienes permisos!'
+  dialogHowToClose: '&aClic izquierdo &7para cerrar'
+  dialogClosed: '&7Has cerrado este diálogo.'
+
+game:
+  full: '&cLa arena está llena'
+  ingame: '&cLa arena ya está en juego'
+  loading: '&cLa arena está cargando...'
+  spawnUsed: '&cEl punto de aparición ya está en uso.'
+  broadcastWinner: '&a¡&e%s &aganó el juego!'
+  time:
+    limit: '&c¡El juego terminó porque excedió el límite de tiempo!'
+    left:
+      minutes: '&cLa partida termina en %s minute(s)!'
+      seconds: '&cLa partida termina en %s second(s)!'
+  player:
+    join: '&7[&a+&7] &8%s &7entró a la partida (%s/%s).'
+    quit: '&7[&c-&7] &8%s &7salió de la partida (%s/%s).'
+  start:
+    nowfull: '&6¡La partida está &lLLENA&6! ¡El juego inicia en &e%s segundos&6!'
+    countdown:
+      msg: '&9SkyFFA inicia en &e%s segundos&9.'
+      alert:
+        title: '&a%s'
+        subtitle: '&e⚠ &c&lHacer team en SkyFFA está prohibido &e⚠'
+      one: '&9SkyFFA inicia en &e%s segundo&9.'
+      minutes: '&9SkyFFA inicia en &e%s minuto(s)&9.'
+      minutes-seconds: '&9SkyFFA inicia en &e%s minuto(s) %s segundos&9.'
+      norequiredplayers: '&4La arena paró por falta de jugadores'
+      done: '&9El juego está empezando...'
+      released: '&cSerás lanzado en %s segundos'
+    go:
+      msg: '&9¡Empieza el juego!'
+      alert: '&a¡Lucha!'
+      alert-chat: '&4¡No está permitido el team!'
+  forcestart: '&aEl juego ha sido forzado a iniciar'
+  arrowShoot:
+    - '&e%s ahora tiene &c%s.'
+
+variable:
+  time: '{DAYS}{HOURS}{MINUTES}{SECONDS}'
+  time-played:
+    second: '%s segundo'
+    seconds: '%s segundos'
+    minute: '%s minuto,'
+    minutes: '%s minutos,'
+    hour: '%s hora,'
+    hours: '%s horas,'
+    day: '%s día,'
+    days: '%s días,'
+
+
+motd:
+  waiting: '&2Esperando'
+  starting: '&6Iniciando'
+  ingame: '&4En Juego'
+  ending: '&4Terminando'
+  loading: '&cCargando'
+  full: '&5Lleno'
